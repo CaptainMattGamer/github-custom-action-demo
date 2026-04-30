@@ -3,7 +3,7 @@ const github = require('@actions/github');
 const exec = require('@actions/exec');
 
 function run () {
-    core.notice('This is a Test Message for JS Action')
+    core.notice('This is a Test Message for JS Action');
 }
 
 run();
